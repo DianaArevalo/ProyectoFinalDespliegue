@@ -2,7 +2,8 @@ import React from 'react';
 
 
 const Lessons = () => {
-    <div >
+return(
+  <div >
       <header>
         <h1 id="titulo">Bienvenido a las Lecciones</h1>
       </header>
@@ -28,6 +29,10 @@ const Lessons = () => {
       </section>
     </div>
 
+
+)
+
+    
 }
 
 export default Lessons;

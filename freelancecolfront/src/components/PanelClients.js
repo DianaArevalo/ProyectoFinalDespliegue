@@ -11,7 +11,10 @@ const PanelClients = () => {
     return(
         <>
          <Header/>
+         <div className='md: flex md:min-h-screen'>
          <Sidebar/>
+         </div>
+         
 
         </>
    

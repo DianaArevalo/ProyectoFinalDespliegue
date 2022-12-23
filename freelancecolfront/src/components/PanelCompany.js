@@ -6,8 +6,10 @@ const PanelCompany = () => {
 
     return(
         <>
-         <Header/>
+          <Header/>
+         <div className='md: flex md:min-h-screen'>
          <Sidebar/>
+         </div>
 
         </>
    

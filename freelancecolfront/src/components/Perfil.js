@@ -2,7 +2,8 @@ import React from 'react';
 import Header from './Header';
 import Sidebar from "./Sidebar"
 
-const Reservation = () => {
+const Perfil = () =>{
+
     return(
         <>
         <Header/>
@@ -43,7 +44,6 @@ const Reservation = () => {
       </>
     )
 
-     
 }
 
-export default Reservation;
+export default Perfil;
