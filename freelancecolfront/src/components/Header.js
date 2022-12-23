@@ -20,11 +20,11 @@ const  Header = () => {
                     
 
              <div className='text-sm lg:flex-grow'>
-             <Link to={"/"} className='block mt-4 lg:inline-block lg:mt-0 text-emerald-800 hover:text-lime-300 mr-4'>Busca Programadores</Link>
+             <Link to={"/buscaP"} className='block mt-4 lg:inline-block lg:mt-0 text-emerald-800 hover:text-lime-300 mr-4'>Busca Programadores</Link>
              </div>
 
              <div className='text-sm lg:flex-grow'>
-             <Link to={"/"} className='block mt-4 lg:inline-block lg:mt-0 text-emerald-800 hover:text-lime-300 mr-4'>Busca Compañias</Link>
+             <Link to={"/buscaC"} className='block mt-4 lg:inline-block lg:mt-0 text-emerald-800 hover:text-lime-300 mr-4'>Busca Compañias</Link>
              </div>
              
              <div className='text-sm lg:flex-grow'>

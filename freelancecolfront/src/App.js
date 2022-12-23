@@ -11,6 +11,8 @@ import Logo from './components/logo';
 // import Navbar from './components/Navbar';
 import PanelCompany from './components/PanelCompany';
 import Perfil from "./components/Perfil"
+import SearchP from './components/SearchP';
+import SearchC from './components/SearchC';
 
 
 
@@ -31,6 +33,8 @@ function App() {
      <Route path = "/panelCompany" exact element= {<PanelCompany/>}/>
      {/* <Route path = "/menus" exact element= {<Navbar/>}/> */}
      <Route path = "/perfil" exact element= {<Perfil/>}/>
+     <Route path = "/buscaP" exact element= {<SearchP/>}/>
+     <Route path = "/buscaC" exact element= {<SearchC/>}/>
 
 
     </Routes>
