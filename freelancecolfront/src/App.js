@@ -9,6 +9,7 @@ import PanelProfessional from './components/PanelProfessional';
 import Reservation from "./components/Reservation";
 import Logo from './components/logo';
 // import Navbar from './components/Navbar';
+import PanelCompany from './components/PanelCompany';
 
 
 
@@ -26,6 +27,7 @@ function App() {
      <Route path = "/Lessons" exact element= {<Lessons/>}/>
      <Route path = "/panelProfessional" exact element= {<PanelProfessional/>}/>
      <Route path = "/reservation" exact element= {<Reservation/>}/>
+     <Route path = "/panelCompany" exact element= {<PanelCompany/>}/>
      {/* <Route path = "/menus" exact element= {<Navbar/>}/> */}
 
     </Routes>

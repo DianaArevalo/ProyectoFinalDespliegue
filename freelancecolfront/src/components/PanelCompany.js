@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Sidebar from "./Sidebar"
 
-const PanelProfessional = () => {
+const PanelCompany = () => {
 
     return(
         <>
@@ -15,4 +15,4 @@ const PanelProfessional = () => {
 
 }
 
-export default PanelProfessional;
+export default PanelCompany;
